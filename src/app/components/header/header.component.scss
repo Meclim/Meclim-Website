@@ -1,0 +1,16 @@
+$secondary-button-color: #043873;
+
+$spacers: (
+
+  7: 13.875rem      // 80px (novo valor personalizado)
+);
+
+.btn-primary{
+  background-color: #043873;
+  color: white;
+  border: none;
+}
+
+.medium-font {
+  font-weight: 600;
+}
