@@ -1,0 +1,14 @@
+.bg-custom {
+  background-image: url('/src/assets/images/bg-breadcrumb.svg'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* Faz a imagem preencher o contêiner */
+  background-position: center; /* Centraliza a imagem */
+  // background-repeat: no-repeat; /* Evita repetição da imagem */
+  background-color: #043873;
+  color: white;
+  height: 8.75rem;
+}
+
+
+.title{
+  margin-left: 12.5rem;
+}
