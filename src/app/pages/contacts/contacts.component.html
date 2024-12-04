@@ -1,1 +1,69 @@
-<p>page contatos</p>
+<div class="d-flex flex-column min-vh-100" >
+  <app-header></app-header>
+  <div class="pg-contacts flex-grow-1 d-flex justify-content-center  py-5">
+    <div class="mail-form flex-grow-1 me-5">
+      <h4><strong>Nos envie uma mensagem</strong></h4>
+      <p>Entre em contato para dúvidas e informações</p>
+      <form action="https://formsubmit.co/yellowsheer@soscandia.org" method="POST">
+        <div class="mb-3">
+          <!-- <label for="nameInput" class="form-label">Nome</label> -->
+          <input type="text" name="name" class="form-control" id="nameInput" placeholder="*Nome" required>
+        </div>
+        <div class="mb-3">
+          <!-- <label for="emailInput" class="form-label">Endereço de Email</label> -->
+          <input type="email" name="email" class="form-control" id="emailInput" placeholder="*E-mail" required>
+        </div>
+        <div class="mb-3">
+          <!-- <label for="telInput" class="form-label">telefone</label>. -->
+          <input type="tel" name="tel" class="form-control" id="telInput" placeholder="Telefone" required>
+        </div>
+        <div class="mb-3">
+          <!-- <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label> -->
+          <textarea name="message" class="form-control" id="messageInput" rows="5" placeholder="*Menssagem"
+            required></textarea>
+          <input type="hidden" name="_next" value="http://localhost:4200/contatos">
+          <input type="hidden" name="_template" value="box">
+          <input type="hidden" name="_captcha" value="true">
+        </div>
+        <div class=" mb-3 d-flex justify-content-end">
+          <button type="submit" class="btn btn-primary fw-semibold">Enviar</button>
+        </div>
+      </form>
+    </div>
+    <div class="ms-5 px-5">
+      <h4><strong>Contato</strong></h4>
+
+      <div class="d-flex align-items-center mt-3">
+        <i class="bi bi-telephone me-2"></i>
+        <span>(83) 98667-4550</span>
+      </div>
+
+      <div class="d-flex align-items-center mt-3">
+        <i class="bi bi-telephone me-2"></i>
+        <span>(81) 98552-2808</span>
+      </div>
+
+      <div class="d-flex align-items-center mt-3">
+        <i class="bi bi-envelope me-2"></i>
+        <span>{{"meclimeng@gmail.com"}}</span>
+      </div>
+
+      <div class="d-flex align-items-center mt-3">
+        <i class="bi bi-instagram me-2"></i>
+        <a href="https://www.instagram.com/meclimeng/" class="d-flex align-items-center text-decoration-none">
+          <span>{{"@meclimeng"}}</span>
+        </a>
+      </div>
+
+      <div class="d-flex align-items-center mt-3">
+        <i class="bi bi-linkedin me-2 text-decoration-none"></i>
+        <a href="https://www.linkedin.com/company/meclimeng" class="d-flex align-items-center text-decoration-none">
+          <span>/meclimeng</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+  <app-footer></app-footer>
+
+</div>
