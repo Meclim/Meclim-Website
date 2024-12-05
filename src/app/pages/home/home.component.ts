@@ -11,7 +11,7 @@ import { RouterLink } from '@angular/router';
 })
 export class HomeComponent {
   navigateToExternal(): void {
-    window.open('https://www.linkedin.com/company/meclimeng', '_blank');
+    window.open('https://www.linkedin.com/company/meclimeng/jobs/', '_blank');
   }
 
 }
