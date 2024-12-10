@@ -37,27 +37,41 @@
 
     <div class="container-fluid d-flex flex-column align-items-center justify-content-around p-5 my-5">
       <h1 class="font-custom "><Strong>Nossos serviços</Strong></h1>
-      <div class="d-flex container-fluid justify-content-evenly pt-5 mt-5">
-        <div class="card-servico p-3 d-flex align-items-center justify-content-center flex-column">
-          <h2 class=""><strong>PMOC</strong></h2>
-          <p class="my-5 px-3">Preparamos tudo o que você precisa para atender às exigências legais estabelecidos pela
-            ANVISA e pela Lei 13.589/2018.</p>
+
+      <div class=" container  row row-cols-2 row-cols-md-4 row-cols-lg-4 g-4 pt-5 mt-5">
+
+        <div class="col">
+          <div class="card-servico p-3 d-flex align-items-center justify-content-center flex-column h-100">
+            <h5 class="ms-3"><u><strong>PMOC</strong></u></h5>
+            <p class="ms-3 mb-0">Preparamos tudo o que você precisa para atender às exigências legais estabelecidos pela
+              ANVISA e pela Lei 13.589/2018.</p>
+          </div>
         </div>
-        <div class="card-servico p-3 d-flex align-items-center justify-content-center flex-column">
-          <h2 class=""><strong>Consultoria</strong></h2>
-          <p class="my-5 px-3">Seja para novos projetos ou para otimizar sistemas existentes, nossa consultoria técnica
-            oferece soluções inteligentes e eficientes.</p>
+
+        <div class="col">
+          <div class="card-servico p-3 d-flex align-items-center justify-content-center flex-column h-100">
+            <h5 class="ms-3"><u><strong>Consultoria</strong></u></h5>
+            <p class="ms-3 mb-0">Seja para novos projetos ou para otimizar sistemas existentes, nossa consultoria técnica
+              oferece soluções inteligentes e eficientes.</p>
+          </div>
         </div>
-        <div class="card-servico p-3 d-flex align-items-center justify-content-center flex-column">
-          <h2 class=""><strong> Laudos Técnicos</strong></h2>
-          <p class="my-5 px-3">Fornecemos serviço inteligente de análise detalhada e avaliação dos sistemas, com o
-            objetivo de garantir o atuação correta dos equipamentos </p>
+
+        <div class="col">
+          <div class="card-servico p-3 d-flex align-items-center justify-content-center flex-column h-100">
+            <h5 class="ms-3"><u><strong>Laudos Técnicos</strong></u></h5>
+            <p class="ms-3 mb-0">Fornecemos serviço inteligente de análise detalhada e avaliação dos sistemas, com o
+              objetivo de garantir o atuação correta dos equipamentos </p>
+          </div>
         </div>
-        <div class="card-servico p-3 d-flex align-items-center justify-content-center flex-column">
-          <h2 class=""><strong>Manutenção</strong></h2>
-          <p class="my-5 px-3">Evite surpresas e prolongue a vida útil dos seus equipamentos com nosso serviço completo
-            de manutenção.</p>
+
+        <div class="col">
+          <div class="card-servico p-3 d-flex align-items-center justify-content-center flex-column h-100 ">
+            <h5 class="ms-3"><u><strong>Manutenção</strong></u></h5>
+            <p class="ms-3 mb-0">Evite surpresas e prolongue a vida útil dos seus equipamentos com nosso serviço completo
+              de manutenção.</p>
+          </div>
         </div>
+
       </div>
       <div class="d-flex container-fluid justify-content-end ">
         <button class=" btn btn-primary btn-lg fw-semibold  mx-7 mt-5 p-3 px-5" [routerLink]="['/servicos']"
@@ -66,6 +80,7 @@
           <i class="bi bi-arrow-right"></i>
         </button>
       </div>
+
     </div>
 
     <div class="differences-card container-fluid d-flex flex-column align-items-center px-5 pt-5 ">
