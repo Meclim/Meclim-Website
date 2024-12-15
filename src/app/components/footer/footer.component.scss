@@ -18,3 +18,19 @@ footer {
   width: 100%;
   // z-index: 1000; /* Garante que fique acima de outros elementos */
 }
+
+.img-fluid{
+  max-width: 174px;
+}
+
+@media (min-width: 768px) {
+  .img-fluid{
+    max-width: 174px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-fluid{
+    max-width: 236px;
+  }
+}
