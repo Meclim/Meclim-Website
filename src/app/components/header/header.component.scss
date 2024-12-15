@@ -14,3 +14,20 @@ $spacers: (
 .medium-font {
   font-weight: 600;
 }
+
+
+.img-fluid{
+  max-width: 140px;
+}
+
+@media (min-width: 768px) {
+  .img-fluid{
+    max-width: 182px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-fluid{
+    max-width: 182px;
+  }
+}
