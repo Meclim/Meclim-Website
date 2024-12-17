@@ -1,0 +1,36 @@
+
+footer {
+  margin-top: auto;
+  background-color: #043873;
+  color: white;
+}
+
+.container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.fixed-footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  // z-index: 1000; /* Garante que fique acima de outros elementos */
+}
+
+.img-fluid{
+  max-width: 174px;
+}
+
+@media (min-width: 768px) {
+  .img-fluid{
+    max-width: 174px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-fluid{
+    max-width: 236px;
+  }
+}

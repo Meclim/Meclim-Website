@@ -1,0 +1,41 @@
+.pg-about{
+  background-color: #f3f3f3;
+}
+
+.font-custom{
+  font-family: 'Inter', sans-serif;
+}
+
+.text-indent {
+  text-indent: 2em; /* Define o espaçamento da primeira linha */
+}
+
+
+.container-history {
+  max-width: 53.5rem;
+  margin-left: 10%;
+}
+
+.contaiter-culture{
+  max-width: 27.5rem;
+  min-width: 12.267rem;
+}
+
+.icon-size{
+  min-width: 2rem;
+  max-width: 2rem;
+}
+
+@media (min-width: 768px) {
+  .icon-size{
+    min-width: 3rem;
+    max-width: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .icon-size{
+    min-width: 4rem;
+    max-width: 4rem;
+  }
+}

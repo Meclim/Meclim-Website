@@ -1,0 +1,33 @@
+$secondary-button-color: #043873;
+
+$spacers: (
+
+  7: 13.875rem      // 80px (novo valor personalizado)
+);
+
+.btn-primary{
+  background-color: #043873;
+  color: white;
+  border: none;
+}
+
+.medium-font {
+  font-weight: 600;
+}
+
+
+.img-fluid{
+  max-width: 140px;
+}
+
+@media (min-width: 768px) {
+  .img-fluid{
+    max-width: 182px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-fluid{
+    max-width: 182px;
+  }
+}
