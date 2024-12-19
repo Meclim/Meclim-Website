@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:meclim-website": "node dist/meclim-website/server/server.mjs"
+    "serve:ssr:meclim-website": "node dist/meclim-website/server/server.mjs",
+    "build:ssr": "ng build && ng run meclim-website:server"
   },
   "private": true,
   "dependencies": {
